@@ -8,16 +8,16 @@ int main()
 	{
 		for(int j=1; j<=i; j++)
 		{
-			cout<<"*";
+			cout<<"* ";
 		}
 		int space =2*n-2*i;
 		for(int j=1; j<=space; j++)
 		{
-			cout<<" ";
+			cout<<"  ";
 		}
 		for(int j=1; j<=i; j++)
 		{
-			cout<<"*";
+			cout<<"* ";
 		}
 		cout<<endl;
 	}
@@ -27,16 +27,16 @@ int main()
 	{
 		for(int j=1; j<=i; j++)
 		{
-			cout<<"*";
-		}
+			cout<<"* ";
+		}						//Enhance
 		int space =2*n-2*i;
 		for(int j=1; j<=space; j++)
 		{
-			cout<<" ";
+			cout<<"  ";
 		}
 		for(int j=1; j<=i; j++)
 		{
-			cout<<"*";
+			cout<<"* ";
 		}
 		cout<<endl;
 	}
